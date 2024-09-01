@@ -1,3 +1,7 @@
+```
+docker build . --platform linux/amd64 -t rag-langchain:v0.1
+docker run -it rag-langchain:v0.1 /bin/sh
+```
 # Local RAG with Python and Flask
 
 This application is designed to handle queries using a language model and a vector database. It generates multiple versions of a user query to retrieve relevant documents and provides answers based on the retrieved context.
@@ -48,6 +52,7 @@ $ ollama serve
 ```bash
 $ python app.py
 ```
+
 
 
 ## Conclusion
